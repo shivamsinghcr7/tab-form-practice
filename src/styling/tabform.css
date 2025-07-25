@@ -1,0 +1,76 @@
+.heading-container {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: start;
+  padding: 10px;
+  margin-top: 5px;
+  padding-left: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: relative;
+}
+
+.tab-body {
+  display: flex;
+  padding-left: 5px;
+  background: #e5beff;
+  font-size: 20px;
+  width: inherit;
+  height: 300px;
+  border: 1px solid black;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: relative;
+}
+
+.heading-container-tabs {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 400;
+  padding: 5px 8px;
+  cursor: pointer;
+  position: relative;
+}
+
+.heading-container-tabs::after {
+  content: "";
+  position: absolute;
+  top: 15%;
+  bottom: 15%;
+  right: 0;
+  width: 1px;
+  background-color: rgb(255, 0, 0);
+}
+
+.heading-container-tabs:hover {
+  color: red;
+  font-weight: 500;
+}
+
+.submit-btn {
+  position: absolute;
+  top: auto;
+  right: 20px;
+  bottom: 20px;
+}
+
+.prev-next-btn {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+button {
+  padding: 5px;
+  margin-right: 8px;
+}
+
+.clear-btn {
+  position: relative;
+  padding: 5px;
+  border-radius: 8px;
+  margin-left: 390px;
+  top: 1px;
+  right: 0;
+}
